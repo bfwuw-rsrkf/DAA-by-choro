@@ -3,7 +3,7 @@
 
 public class FirstBadVersion extends VersionControl {
     public int firstBadVersion(int n) {
-        for (int i = n; i > 1; i--) {
+        for (int i = n; i > 0; i--) {
             if (!isBadVersion(i)) {
                 return i+1;
             }
